@@ -4,7 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start-abc": "ng serve -c abc",
+    "start-abcproduction": "ng serve -c abcproduction",
     "build": "ng build",
+    "build-abc": "ng build -c abc",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
